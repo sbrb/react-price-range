@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.list-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.listItem-wrap img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.listItem-wrap {
+  border: 1px solid gray;
+}
+
+.label-range {
+  margin-bottom: 2.5rem;
+}
+
+
+.home_panelList-wrap {
+  flex: 1;
+  display: flex;
+}
+
+.home_panel-wrap {
+  flex-basis: 280px;
+  padding: 1rem;
+}
+
+.home_list-wrap {
+  flex: 1;
+  padding: 1rem;
+}
